@@ -43,6 +43,20 @@ body {
     align-items: center;
 }
 
+@media(min-width:600px) {
+    .searchForm {
+        max-width: 580px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 100px;
+    }
+    .globalMain {
+        max-width: 800px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
 .searchForm>input {
     width: 100%;
     height: 40px;
@@ -71,6 +85,7 @@ body {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    cursor: pointer;
 }
 
 .siteList .site,
@@ -94,9 +109,16 @@ body {
 }
 
 .site>.close {
+    font-size: 24px;
+    display: none;
     position: absolute;
-    top: 0;
+    top: -2px;
     right: 5px;
+}
+
+.siteList .site:hover>.close {
+    display: block;
+    cursor: default;
 }
 
 .siteList .site>.logo,
@@ -120,4 +142,4 @@ body {
     font-size: 16px;
 }
 
-/*# sourceMappingURL=/style.e308ff8e.css.map */
+/*# sourceMappingURL=style.edb643cf.css.map */
