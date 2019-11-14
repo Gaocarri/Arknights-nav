@@ -41,6 +41,7 @@ img {
 
 @media(max-width:600px) {
     body {
+        height: 100vh;
         background: url(backgroundm.07b62000.jpg) center center no-repeat;
         background-attachment: fixed;
         background-size: cover;
@@ -49,6 +50,7 @@ img {
 
 @media(min-width:600px) {
     body {
+        height: 100vh;
         background: url(backgroundpc.3b5bb92a.jpg) center center no-repeat;
         background-attachment: fixed;
         background-size: cover;
@@ -151,4 +153,4 @@ img {
     font-size: 16px;
 }
 
-/*# sourceMappingURL=style.caa55a2d.css.map */
+/*# sourceMappingURL=style.ea19aca9.css.map */
