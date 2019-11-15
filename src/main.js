@@ -3,7 +3,6 @@ const $lastLi = $siteList.find('li.last');
 const x = localStorage.getItem('x'); //读取缓存
 const xObject = JSON.parse(x)
 const hashMap = xObject || [];
-
 //简化输入的url
 const simplifyUrl = (url) => {
     return url.replace('https://', '')
