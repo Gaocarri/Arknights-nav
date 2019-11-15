@@ -4,9 +4,6 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-}
-
-html {
     overflow-x: hidden;
 }
 
@@ -37,8 +34,6 @@ img {
 /* style */
 
 body {
-    height: 100vh;
-    width: 100vw;
     background: #ccc;
     background: url(https://s2.ax1x.com/2019/11/15/MdDYgf.jpg) center center no-repeat;
     background-attachment: fixed;
@@ -211,4 +206,4 @@ body {
     font-size: 16px;
 }
 
-/*# sourceMappingURL=style.5d66a1f8.css.map */
+/*# sourceMappingURL=style.86371268.css.map */
