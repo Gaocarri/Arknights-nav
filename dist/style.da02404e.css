@@ -49,8 +49,6 @@ body {
 
 @media(min-width:600px) {
     body {
-        height: 100%;
-        width: 100%;
         background: #ccc;
         background: url(https://s2.ax1x.com/2019/11/15/MdDtv8.jpg) center center no-repeat;
         background-attachment: fixed;
@@ -68,56 +66,6 @@ body {
         max-width: 800px;
         margin-left: auto;
         margin-right: auto;
-    }
-}
-
-@media(max-width:600px) {
-    .siteList {
-        margin: 30px -4px 0 16px;
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
-    }
-    .siteList .site,
-    .add {
-        height: 60px;
-        width: 75px;
-        margin-bottom: 20px;
-        margin-right: 20px;
-        border-radius: 6px;
-        padding: 5px 0;
-    }
-    .siteList .site {
-        position: relative;
-    }
-    .site>.close {
-        font-size: 24px;
-        display: none;
-        position: absolute;
-        top: -2px;
-        right: 5px;
-    }
-    .siteList .site:hover>.close {
-        display: block;
-        cursor: default;
-    }
-    .siteList .site>.logo,
-    .add>.addButton {
-        display: flex;
-        height: 64px;
-        width: 150px;
-        justify-content: center;
-        align-items: center;
-        font-size: 64px;
-    }
-    .add>.addButton .icon {
-        max-width: 100%;
-        max-height: 100%;
-    }
-    .siteList .site>.link,
-    .add>.newLink {
-        margin-top: 10px;
-        font-size: 16px;
     }
 }
 
@@ -193,6 +141,8 @@ body {
     justify-content: center;
     align-items: center;
     font-size: 64px;
+    overflow-y: hidden;
+    /* 否则会出现滚动条 */
 }
 
 .add>.addButton .icon {
@@ -202,8 +152,7 @@ body {
 
 .siteList .site>.link,
 .add>.newLink {
-    margin-top: 10px;
     font-size: 16px;
 }
 
-/*# sourceMappingURL=style.86371268.css.map */
+/*# sourceMappingURL=style.da02404e.css.map */
