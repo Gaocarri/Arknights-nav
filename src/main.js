@@ -59,7 +59,7 @@ $(document).on('keypress', (x) => {
     const { key } = x; //const key = x.key
     for (let i = 0; i < hashMap.length; i++) {
         if (hashMap[i].logo.toLowerCase() === key) {
-            setTimeout(() => window.open(hashMap[i].url), 0) // 如果存在多个对应网页，全部打开
+            setTimeout(() => window.open(hashMap[i].url), 0) 
         }
     }
 })
